@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "webpack src/app.js -o public/bundle.js",
+    "start": "react-scripts --openssl-legacy-provider start",
     "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\" --only hosting"
   },
   "keywords": [],
